@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/spasalon/static/css/main.94458100.css",
+    "main.js": "/spasalon/static/js/main.750fbbec.js",
+    "static/media/slidEffect.png": "/spasalon/static/media/slidEffect.60f8efecd84b21ad4a3e.png",
+    "static/media/miniBack.png": "/spasalon/static/media/miniBack.d455148d55f521d84bf5.png",
+    "static/media/headerImg.png": "/spasalon/static/media/headerImg.cf58417b78cc272108de.png",
+    "static/media/6.png": "/spasalon/static/media/6.ba024c38a02c1c3453ee.png",
+    "static/media/woman2.png": "/spasalon/static/media/woman2.d34884be84fd3be56681.png",
+    "static/media/2.png": "/spasalon/static/media/2.aa6a501d0387c474b3b4.png",
+    "static/media/5.png": "/spasalon/static/media/5.1d5f79e986ce7534eafa.png",
+    "static/media/woman1.png": "/spasalon/static/media/woman1.aa887a8716fc7d2119dc.png",
+    "static/media/woman3.png": "/spasalon/static/media/woman3.c42b7dddd22e493dedfe.png",
+    "static/media/4.png": "/spasalon/static/media/4.2d36caeb92f01eb7a565.png",
+    "static/media/1.png": "/spasalon/static/media/1.d21c43f2acfb1b1c9faa.png",
+    "static/media/3.png": "/spasalon/static/media/3.b3fa82732487b66be3ec.png",
+    "static/media/7.png": "/spasalon/static/media/7.ba727c4d7b83e38c581f.png",
+    "static/media/8.png": "/spasalon/static/media/8.27f76b65dd8587449f54.png",
+    "index.html": "/spasalon/index.html",
+    "main.94458100.css.map": "/spasalon/static/css/main.94458100.css.map",
+    "main.750fbbec.js.map": "/spasalon/static/js/main.750fbbec.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.94458100.css",
+    "static/js/main.750fbbec.js"
+  ]
+}
