@@ -476,3 +476,376 @@ margin-top: 30px;
   color: white;
   font-size: 21px;
 }
+
+@media screen and (max-width:390px){
+
+  body{
+    overflow-x: hidden;
+  }
+
+  .box{
+    width: 100%;
+    padding: 0 12px;
+  }
+
+
+  
+  .menu{
+    display: block;
+  }
+
+  header ul{
+    position: absolute;
+
+    top: 70px;
+    left: -100%;
+
+    width: 100%;
+
+    background: white;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 20px;
+
+    padding: 30px 0;
+
+    transition: 0.5s;
+  }
+
+  header ul.active{
+    left: 0;
+  text-align: center;
+  }
+svg{
+  color:black;
+}
+  .big_image{
+  width: 100%;
+  height: 226px;
+
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top right;
+
+  background-color: #f3eeee;
+}
+ .big_image .info{
+  width: 170px;
+  height: 100%;
+
+  padding-left: 8px;
+
+  gap: 18px;
+
+  justify-content: center;
+  align-items: flex-start;
+}
+ .big_image h3{
+  font-size: 19px;
+  line-height: 30px;
+}
+
+  .big_image p{
+    font-size: 13px;
+    line-height: 22px;
+  }
+
+  .big_image button{
+    width: 140px;
+    height: 32px;
+    font-size: 14px;
+  }
+
+  .about{
+    padding: 60px 0;
+  }
+
+  .about .box{
+    gap: 40px;
+  }
+
+  .about h3{
+    font-size: 28px;
+  }
+
+  .about .all{
+    flex-direction: column;
+    gap: 35px;
+  }
+
+  .about .photo{
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 8px;
+
+    margin-right: 0;
+  }
+
+  .about .detal{
+    width: 48px;
+    height: 170px;
+
+    border-radius: 12px;
+
+    background-size: 280px 170px;
+  }
+
+  .about .detal1{
+    background-position: 0 0;
+  }
+
+  .about .detal2{
+    background-position: -48px 0;
+    margin-top: 20px;
+  }
+
+  .about .detal3{
+    background-position: -96px 0;
+  }
+
+  .about .detal4{
+    background-position: -144px 0;
+    margin-top: 20px;
+  }
+
+  .about .detal5{
+    background-position: -192px 0;
+  }
+
+  .about .info{
+    width: 100%;
+    gap: 18px;
+  }
+
+  .about .info h4{
+    font-size: 34px;
+    line-height: 42px;
+  }
+
+  .about .info p{
+    font-size: 15px;
+    line-height: 26px;
+  }
+
+
+  .Products{
+    padding: 60px 0;
+  }
+
+  .Products .box{
+    gap: 40px;
+  }
+
+  .Products h3{
+    font-size: 28px;
+  }
+
+  .Products .all{
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+  }
+
+  .Products .img{
+    width: 100%;
+    height: 220px;
+
+    padding: 15px;
+  }
+
+  .Products img{
+    width: 150px;
+    height: 170px;
+
+    margin-top: 0;
+  }
+
+  .Products h4{
+    font-size: 18px;
+  }
+
+  .Products p{
+    width: 100%;
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  .Products h5{
+    font-size: 22px;
+  }
+
+
+  .Blog{
+    padding: 60px 0;
+  }
+
+  .Blog .box{
+    gap: 40px;
+  }
+
+  .Blog h3{
+    font-size: 28px;
+  }
+
+  .Blog .all{
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .Blog .all div{
+    padding: 20px !important;
+  }
+
+  .Blog img{
+    width: 100%;
+  }
+
+  .Blog h4{
+    font-size: 24px;
+  }
+
+  .Blog p{
+    font-size: 15px;
+    line-height: 24px;
+  }
+
+  .Blog button{
+    width: 150px;
+    height: 45px;
+
+    margin: 20px auto 0;
+  }
+
+
+  .Reviews{
+    padding: 60px 0;
+  }
+
+  .Reviews .box{
+    gap: 40px;
+  }
+
+  .Reviews h3{
+    font-size: 28px;
+  }
+
+  .Reviews .all{
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .Reviews .all div{
+    height: auto !important;
+
+    padding: 25px !important;
+  }
+
+  .Reviews img{
+    width: 70px;
+    height: 70px;
+  }
+
+  .Reviews h4{
+    font-size: 22px;
+  }
+
+  .Reviews p{
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+
+  .Contact{
+    padding: 60px 0;
+  }
+
+  .Contact .box{
+    gap: 35px;
+  }
+
+  .Contact h3{
+    font-size: 28px;
+  }
+
+  .Contact .all{
+    flex-direction: column;
+  }
+
+  .Contact iframe{
+    width: 100% !important;
+    height: 260px !important;
+
+    border-radius: 25px;
+  }
+
+  .Contact form{
+    width: 100%;
+    height: auto;
+
+    padding: 20px;
+
+    border-radius: 25px;
+  }
+
+  .Contact input{
+    font-size: 14px;
+  }
+
+  .Contact textarea{
+    margin-top: 15px;
+  }
+
+  .Contact button{
+    margin-top: 10px;
+  }
+
+
+  .Footer{
+    padding: 35px 0;
+  }
+
+  .Footer .box{
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .Footer ul{
+    margin-left: 0;
+
+    flex-wrap: wrap;
+
+    gap: 12px;
+  }
+
+  .Footer li{
+    font-size: 14px;
+  }
+
+  .Footer h2{
+    font-size: 28px;
+  }
+
+  .Footer .left p{
+    font-size: 15px;
+  }
+
+  .Footer .right{
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  .Footer .phone p{
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .Footer span{
+    font-size: 14px;
+  }
+
+}
