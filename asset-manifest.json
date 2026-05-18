@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/spasalon/static/css/main.94458100.css",
+    "main.css": "/spasalon/static/css/main.5101e5d2.css",
     "main.js": "/spasalon/static/js/main.750fbbec.js",
     "static/media/slidEffect.png": "/spasalon/static/media/slidEffect.60f8efecd84b21ad4a3e.png",
     "static/media/miniBack.png": "/spasalon/static/media/miniBack.d455148d55f521d84bf5.png",
@@ -17,11 +17,11 @@
     "static/media/7.png": "/spasalon/static/media/7.ba727c4d7b83e38c581f.png",
     "static/media/8.png": "/spasalon/static/media/8.27f76b65dd8587449f54.png",
     "index.html": "/spasalon/index.html",
-    "main.94458100.css.map": "/spasalon/static/css/main.94458100.css.map",
+    "main.5101e5d2.css.map": "/spasalon/static/css/main.5101e5d2.css.map",
     "main.750fbbec.js.map": "/spasalon/static/js/main.750fbbec.js.map"
   },
   "entrypoints": [
-    "static/css/main.94458100.css",
+    "static/css/main.5101e5d2.css",
     "static/js/main.750fbbec.js"
   ]
 }
